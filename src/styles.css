@@ -1,0 +1,131 @@
+
+:root{
+    --transparent: rgba(0,0,0,0);
+    --textColor: grey;
+    --babyBlue: rgb(0, 174, 255);
+    --blueGrey: rgba(0, 174, 255, 0.473);
+    }
+
+Body{
+    margin: 0% ;
+    display: flex;
+    background-color: white;
+}
+
+/*layout*/
+.backleft{
+    display: flex;
+    position: absolute;
+    background-color: rgb(114, 113, 113);
+    left: 0;
+    top: 10vh;
+    width: 40vw;
+    height: 90vh;
+}
+.backright{
+    display: flex;
+    position: absolute;
+    background-color: lightgray;
+    left: 40vw;
+    top: 10vh;
+    width: 60vw;
+    height: 90vh;
+}
+.header{
+    display: flex;
+    position: absolute;
+    background-color: rgb(66, 63, 63);
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: xxx-large;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.displayRight{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: var(--transparent);
+    top: 0%;
+    width: 75%;
+    height: 90%;
+    text-align: left;
+}
+.displayLeft{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: var(--transparent);
+    left: 0%;
+    top: 0%;
+    width: 25%;
+    height: 90%;
+    margin: 0;
+    text-align: center;
+}
+.resumeHeader{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color:var(--transparent);
+    left: 0%;
+    top: 0%;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    font-size: xx-large;
+}
+.resumeBody{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*Containers*/
+.piForm{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2.5vh;
+    left: 2.5vw;
+    height: 85vh;
+    width: 35vw;
+    background-color: whitesmoke;
+    text-align: center;
+    overflow: auto;
+}
+
+.formMargin{
+    margin: 5%;
+}
+
+.piDisplay{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 42.5vw;
+    width: 55vw;
+    top: 12.5vh;
+    height: 85vh;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.leftSideContainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: auto;
+    height: fit-content;
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
